@@ -3,7 +3,18 @@ package quicksort;
 public class Main {
 
   public static void main(String[] args) {
+     int[] list = new int[]{9,-3,5,2,6,8,-6,1,3};
+    for (int i:list
+    ) {
+      System.out.println(i);
 
+    }
+    quickSort(list, 0, list.length-1);
+    for (int i:list
+    ) {
+      System.out.println(i);
+
+    }
   }
 
   public static void quickSort(int[] arr, int begin, int end) {
